@@ -20,7 +20,7 @@ public class Main {
         User user1 = new User("ivan", "qwerty1");
         User user2 = new User("maria", "qwerty2");
         User user3 = new User("dmitrii", "qwerty3");
-        System.out.println();
+        System.out.println("Список товаров:");
         System.out.println(eat);
         System.out.println(game);
         System.out.println(dress);
@@ -28,11 +28,11 @@ public class Main {
         user2.setBasket(prod3, 4);
         user1.setBasket(prod5, 2);
         user3.setBasket(prod6, 2);
-        System.out.println();
+        System.out.println("Список покупок");
         System.out.println(user1);
         System.out.println(user2);
         System.out.println(user3);
-        System.out.println();
+        System.out.println("Список товаров после покупок");
         System.out.println(eat);
         System.out.println(game);
         System.out.println(dress);
